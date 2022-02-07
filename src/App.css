@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.pagination {
+  justify-content: center;
+}
+.search-photos-input {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+}
+
+#gallery-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px 20px;
+  grid-template-areas:
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . .";
+}
+
+.todo-smile {
+  height: 30px;
+  vertical-align: top;
+  font: -webkit-control;
+}
+
+.search-photos-loader {
+  width: 200px;
+  height: 250px;
+  background-color: #dcdcdc85;
+}
+
+#active-page {
+  background-color: aquamarine;
+}
+
+#todo-item-smile {
+  vertical-align: super;
+  font-size: xxx-large;
+  height: 75px;
+}
+
+.smile-completed {
+  background-color: greenyellow;
+}
