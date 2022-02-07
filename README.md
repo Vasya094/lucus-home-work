@@ -1,1 +1,3 @@
-To run rpoject on local host please run "npm run dev"
+# To run rpoject on local host
+
+##  please run "npm i" then "npm run dev"
